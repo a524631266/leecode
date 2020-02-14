@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b83a896-432d-4132-9b53-52789aff7ca2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lee834/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestArray.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lee834/MainDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1556#1557#0" expanded="true" />
+                <element signature="e#1579#1580#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+                <element signature="e#4420#4421#0" expanded="true" />
+                <element signature="e#4457#4458#0" expanded="true" />
+                <element signature="e#4508#4509#0" expanded="true" />
+                <element signature="e#4546#4547#0" expanded="true" />
+                <element signature="e#4751#4752#0" expanded="true" />
+                <element signature="e#4790#4791#0" expanded="true" />
+                <element signature="e#4839#4840#0" expanded="true" />
+                <element signature="e#4887#4888#0" expanded="true" />
+                <element signature="e#4920#4921#0" expanded="true" />
+                <element signature="e#4955#4956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/TestArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>this</find>
+      <find>],</find>
+      <find>,[</find>
+      <find>4657</find>
+      <find>4638</find>
+      <find>8895</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>,{</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/lee834/MainDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/TestArray.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="136" />
+    <option name="y" value="81" />
+    <option name="width" value="1144" />
+    <option name="height" value="635" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="13-02-2020">
+        <observation name="false" value="474.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="false" value="25.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="54.0" />
+        <observation name="false" value="420.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="6.0" />
+        <observation name="false" value="19.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="13-02-2020">
+        <observation name="false" value="471.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="false" value="25.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="13-02-2020">
+        <observation name="0" value="173.0" />
+        <observation name="UNDEFINED" value="301.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="0" value="4.0" />
+        <observation name="UNDEFINED" value="21.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="false" value="133.0" />
+        <observation name="true" value="301.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="11.0" />
+        <observation name="true" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="false" value="168.0" />
+        <observation name="true" value="266.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="11.0" />
+        <observation name="true" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="false" value="168.0" />
+        <observation name="true" value="266.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="11.0" />
+        <observation name="true" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="false" value="168.0" />
+        <observation name="true" value="266.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="11.0" />
+        <observation name="true" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="false" value="399.0" />
+        <observation name="true" value="35.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="21.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="13-02-2020">
+        <observation name="false" value="454.0" />
+        <observation name="true" value="20.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="false" value="22.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="13-02-2020">
+        <observation name="NORMAL" value="437.0" />
+        <observation name="UNDEFINED" value="37.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="NORMAL" value="21.0" />
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="expected" value="127.0" />
+        <observation name="maybeExpected" value="22.0" />
+        <observation name="normal" value="279.0" />
+        <observation name="ofDefaultType" value="9.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="expected" value="3.0" />
+        <observation name="maybeExpected" value="1.0" />
+        <observation name="normal" value="17.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="classNameOrGlobalStatic" value="38.0" />
+        <observation name="expectedTypeVariable" value="59.0" />
+        <observation name="normal" value="169.0" />
+        <observation name="probableKeyword" value="13.0" />
+        <observation name="variable" value="158.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="classNameOrGlobalStatic" value="4.0" />
+        <observation name="expectedTypeVariable" value="1.0" />
+        <observation name="normal" value="11.0" />
+        <observation name="variable" value="5.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="unknown" value="434.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="unknown" value="21.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="false" value="10.0" />
+        <observation name="null" value="396.0" />
+        <observation name="true" value="28.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="null" value="17.0" />
+        <observation name="true" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="unknown" value="434.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="unknown" value="21.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="103.0" />
+        <observation name="delegation" value="1.0" />
+        <observation name="normal" value="369.0" />
+        <observation name="recursive" value="1.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="normal" value="8.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="13-02-2020">
+        <observation name="cancelled" value="634.0" />
+        <observation name="explicitSelect" value="297.0" />
+        <observation name="typedSelect" value="183.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="cancelled" value="44.0" />
+        <observation name="explicitSelect" value="15.0" />
+        <observation name="typedSelect" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="13-02-2020">
+        <observation name="BASIC" value="572.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="BASIC" value="28.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="13-02-2020">
+        <observation name="count" value="1114.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="count" value="69.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="0.084477" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.056706" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="453.0" />
+        <observation name="average" value="-7.731707" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-23.0" />
+        <observation name="variance" value="52.241839" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="25.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="average" value="-0.066438" />
+        <observation name="count" value="873.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.054338" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="0.25132" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.848566" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="0.122449" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.058404" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="-1034.524815" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1254.0" />
+        <observation name="variance" value="76093.674658" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="-1089.081633" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="30007.582501" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="-0.010559" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.008531" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="average" value="186.620531" />
+        <observation name="count" value="867.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="18367.953013" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="146.341463" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="14552.136357" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="average" value="0.512111" />
+        <observation name="count" value="867.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="3.002264" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="average" value="1.236447" />
+        <observation name="count" value="867.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.832503" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.97561" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.646762" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="average" value="0.952711" />
+        <observation name="count" value="867.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.591223" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.682927" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.352502" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="6.049631" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="22.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="12.532635" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="4.591837" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="7.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="1.125669" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="average" value="-0.054983" />
+        <observation name="count" value="873.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.046294" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="average" value="-66.33677" />
+        <observation name="count" value="873.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="54182.236105" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="average" value="0.114548" />
+        <observation name="count" value="873.0" />
+        <observation name="max" value="20.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="1.559923" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.487805" />
+        <observation name="count" value="41.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="2.955804" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="13-02-2020">
+        <observation name="UNDEFINED" value="402.0" />
+        <observation name="average" value="-2.692307" />
+        <observation name="count" value="143.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.585617" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="UNDEFINED" value="12.0" />
+        <observation name="average" value="-3.0" />
+        <observation name="count" value="25.0" />
+        <observation name="max" value="-3.0" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="2211.68321" />
+        <observation name="count" value="947.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="13431844.788447" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="2436.857143" />
+        <observation name="count" value="49.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="11551711.798134" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="13-02-2020">
+        <observation name="0" value="236.0" />
+        <observation name="1" value="38.0" />
+        <observation name="10" value="2.0" />
+        <observation name="2" value="12.0" />
+        <observation name="3" value="3.0" />
+        <observation name="4" value="3.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="2.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="0" value="12.0" />
+        <observation name="1" value="3.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="13-02-2020">
+        <observation name="total" value="194.0" />
+        <observation name="withMnemonics" value="6.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="total" value="12.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="13-02-2020">
+        <observation name="0" value="48.0" />
+        <observation name="1" value="55.0" />
+        <observation name="2" value="102.0" />
+        <observation name="3" value="66.0" />
+        <observation name="4" value="17.0" />
+        <observation name="5" value="6.0" />
+        <observation name="6" value="1.0" />
+        <observation name="9" value="2.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="0" value="1.0" />
+        <observation name="1" value="2.0" />
+        <observation name="2" value="7.0" />
+        <observation name="3" value="4.0" />
+        <observation name="4" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="13-02-2020">
+        <observation name="average" value="239.777777" />
+        <observation name="count" value="495.0" />
+      </dailyData>
+      <dailyData date="14-02-2020">
+        <observation name="average" value="176.52381" />
+        <observation name="count" value="21.0" />
+      </dailyData>
+    </factor>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestArray">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="leecode" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lee834.Solution" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lee834.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestArray" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.TestArray" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestArray" />
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b83a896-432d-4132-9b53-52789aff7ca2" name="Default Changelist" comment="" />
+      <created>1581571986240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581571986240</updated>
+      <workItem from="1581571990036" duration="14284000" />
+      <workItem from="1581598067689" duration="5141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19425000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959217" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43879172" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959217" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.32952693" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="leetcode" order="6" side_tool="true" weight="0.32952693" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24959217" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43879172" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959217" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.32952693" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="leetcode" order="6" side_tool="true" weight="0.32952693" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lee834/MainDemo.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lee834/MainDemo.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lee834/MainDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1556#1557#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#4420#4421#0" expanded="true" />
+            <element signature="e#4457#4458#0" expanded="true" />
+            <element signature="e#4508#4509#0" expanded="true" />
+            <element signature="e#4546#4547#0" expanded="true" />
+            <element signature="e#4751#4752#0" expanded="true" />
+            <element signature="e#4790#4791#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
+            <element signature="e#4887#4888#0" expanded="true" />
+            <element signature="e#4920#4921#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
